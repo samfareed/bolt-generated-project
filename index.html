@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hex Color Selector and Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hex Color Selector and Viewer</h1>
+    <div class="color-wheel-section">
+      <h2>Color Wheel</h2>
+      <div id="color-picker"></div>
+      <div id="wheel-color-info">
+        <p>Selected Color: <span id="wheel-hex-value">#FF0000</span></p>
+        <div id="wheel-color-preview" class="color-preview"></div>
+      </div>
+    </div>
+    <div class="hex-input-section">
+      <h2>Hex Color Code Viewer</h2>
+      <input type="text" id="hex-input" placeholder="Enter hex code (e.g., #FF0000)">
+      <button id="apply-hex">Apply</button>
+      <div id="input-color-info">
+        <p>Entered Color: <span id="input-hex-value">#000000</span></p>
+        <div id="input-color-preview" class="color-preview"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

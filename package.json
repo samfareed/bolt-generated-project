@@ -1,0 +1,17 @@
+{
+  "name": "hex-color-selector",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@jaames/iro": "^5.5.2"
+  }
+}
